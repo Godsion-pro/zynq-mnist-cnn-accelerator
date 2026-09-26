@@ -1,0 +1,21 @@
+# Vivado generated
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.dcp
+*.bit
+*.xsa
+*.zip
+# Vitis
+.metadata/
+_ide/
+Debug/
+Release/
