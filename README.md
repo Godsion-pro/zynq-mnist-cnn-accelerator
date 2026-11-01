@@ -181,7 +181,7 @@ AXI-Stream 실험 로그: [레지스터 저장](docs/img/dse_axis_reg.png) · [B
 
 - **Controller FSM**: weight stream load, request/ack 분리 burst window read, Conv2 2-unit 병렬 스케줄링, 레이어 간 버퍼 주소 생성
 - **연산 유닛 RTL**: MAC25(adder tree, LUT/DSP 버전), Conv1/Conv2, Pool, FC 및 출력 requantization(shift·ReLU·clamp) 로직
-- **검증·설계 공간 탐색**: self-checking TB, compute unit 통합 / AXI-Stream 구조 실험 및 비교
+- **검증·설계 공간 탐색**: self-checking TB, compute unit 통합 실험, AXI-Stream 구조 실험·비교(팀 공동)
 
 AXI4-Lite 인터페이스와 PS 펌웨어는 팀원이 담당했습니다.
 
